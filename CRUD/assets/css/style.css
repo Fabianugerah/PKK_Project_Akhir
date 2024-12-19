@@ -1,0 +1,90 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.custom-hr {
+    width: 35%;
+    border: 2px solid #000000;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.luxev-logo {
+    position: absolute;
+    top: -12%;
+    left: 38%;
+    transform: rotate(-90deg) translate(-50%, -50%);
+    transform-origin: center;
+    font-size: 9rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Foto1 {
+    position: absolute;
+    width: 60%;
+    top: -2%;
+    left: 2.2%;
+    z-index: 9;
+}
+
+.Foto {
+    width: 60%;
+}
+
+.lead {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.footer-title {
+    color: #ffc107;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #111;
+    /* Navbar background hitam */
+}
+
+.navbar-brand img {
+    height: 24px;
+    /* Tinggi logo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    /* Warna teks putih */
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f4c10f;
+    /* Warna hover kuning */
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-container i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.icon-container i:hover {
+    color: #f4c10f;
+    /* Warna hover kuning */
+}
